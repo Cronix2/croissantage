@@ -20,8 +20,8 @@ $u_e_grave = [char]0x00E8   # è
 # --- Paramètres à personnaliser ---
 $prenomCroissanteur1   ="Un coll" + $u_e_grave + "gue anonyme"
 $prenomCroissanteur2   ="Cl" + $u_e + "ment"
-$choice_prenom = 1
-if ($choice_prenom -eq 2) {
+$choice_prenom = 2
+if ($choice_prenom -eq 1) {
     $prenomCroissanteur = $prenomCroissanteur1
 } else {
     $prenomCroissanteur = $prenomCroissanteur2
